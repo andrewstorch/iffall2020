@@ -1,0 +1,53 @@
+p {
+    color: rgb(83, 83, 83);
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    color: firebrick;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+h2 {
+    color: firebrick;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+h3 {
+    color: firebrick;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ch {
+    color: rgb(116, 0, 87);
+font-family: fantasy;
+    font-size: 30px;
+
+.o {
+    font-style: oblique;
+    color: rebeccapurple;
+}
+
+.w {
+    color: rgb(27, 27, 27);
+}
+
+.blue {
+    color: royalblue;
+}
+
+#n {
+    font-size: 20px;
+    color: sandybrown;
+}
+
+.c{
+    color: rgb(184, 0, 92);
+font-weight: bold;
+}
