@@ -1,0 +1,67 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+    color: teal;
+}
+
+header {
+    font-size: 35pt;
+    font-weight: bold;
+}
+
+article {
+    margin: 4rem 0;
+  }
+
+h1 {
+    font-size: 20pt;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+.lw {
+    font-weight: lighter;
+}
+
+.bw {
+    font-weight: bold;
+}
+
+.is {
+    font-style: italic;
+}
+
+.m {
+    letter-spacing: 0.3em;
+}
+
+.l {
+    letter-spacing: -0.06em;
+}
+
+.lt {
+    text-transform: lowercase;
+}
+
+.ut {
+    text-transform: uppercase;
+}
+
+.ct {
+    text-transform: capitalize;
+}
+
+.ud{
+ text-decoration: underline;
+}
+
+.od {
+    text-decoration: overline;
+}
+
+.ld {
+    text-decoration: line-through ;
+}
