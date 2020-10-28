@@ -1,0 +1,159 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(255,0,0,.50);
+    padding-top: 150px;
+   height: 330px;
+}
+
+header {
+    background-image: url(https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1535036409/hotpeppers.jpg?itok=3W2qre8n);
+   background-size: cover;
+   background-position: center;
+}
+
+.column-container {
+ width: 960px;
+ margin: auto;
+}
+
+h1 {
+    font-size: 60pt;
+    margin-top: 1pt;
+    margin-bottom: 0pt;
+    color: tomato;
+}
+
+h2 {
+    font-size: 22.5pt;
+    margin-top: -1pt;
+    margin-bottom: 2pt;
+    color: tomato;
+}
+h3 {
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 8pt;
+    margin-bottom: 24pt;
+}
+
+section {
+    padding-top: 30px;
+}
+
+p {
+    font-size: 13.3pt;
+    line-height: 25.45px;
+}
+
+.full{
+    background-size: cover;
+    background-position: center;
+    padding-top: 0%;
+}
+
+.chili{
+    width: 400 px;
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    margin-left: 2.6rem;
+    margin-bottom: 2rem;
+}
+
+.tit{
+    margin-top: -4pt;
+}
+
+li {
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 24px;
+   
+}
+
+.or {
+    background-color: coral;
+    color: rgb(90, 5, 22);
+    
+}
+
+.rd {
+    background-color: rgb(255, 229, 115);
+    color: rgb(150, 3, 32);
+    
+
+}
+.img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-right: 12px;
+}
+
+li img {
+    float: right;
+    margin-right: 24px;
+    margin-left: 0;
+}
+
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.ex {
+    padding-bottom: 56px;
+}
+.grid {
+    display: grid;
+    padding: 0;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 0px;
+}
+.bodi {
+    font-size: 13.5pt;
+    width: 90%;
+    line-height: 20pt;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+.pp {
+    margin-top: 0;
+    font-size: 15pt;
+    margin-bottom: 0;
+}
+.grid li {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: -5px;
+    padding-top: 4px;
+}
+.cen {
+    padding:72px 325px 72px 325px;
+    background-color: rgb(168, 92, 26);
+    color: skyblue;
+
+    
+}
+
+.qt {
+    font-size: 19pt;
+    line-height: 1.45;
+    text-align: center;
+}
+.footer {
+    background-color: #300000;
+    color: thistle;
+padding: 23px 0 7px 205px;
+}
