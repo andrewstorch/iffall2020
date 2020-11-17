@@ -1,0 +1,393 @@
+header {
+    font-size: 24pt;
+}
+
+a {
+    text-decoration: none;
+}
+div {
+    width: 25%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1rem; 
+}
+.container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.army {
+    width: 150px;
+    height: 150px;
+}
+
+.army:hover {
+    width: 170px;
+    height: 170px;
+}
+
+
+.fa-car {
+    color: grey;
+transform:scale(2)
+}
+
+.fa-car:hover {
+    transform:translate(0, 100%) scale(4);
+}
+.fa-car:active {
+    transform:translate(0, 200%) scale(6);
+}
+
+.npr {
+    font-size: 36px;
+    color: navy;
+    text-decoration: lowercase;
+font-family: sans-serif;
+}
+.npr:hover{
+    text-shadow:0 0 5px maroon;
+    font-size: 40px;
+}
+
+.fore {
+    width: 170px;
+    height: 170px;
+    transform: rotate(90deg);
+}
+.fore:hover{
+    transform: rotate(45deg);
+    transition: 0.4s;
+}
+.fore:active{
+    transform: rotate(0deg);
+    transition: 0.4s;
+}
+
+.tucker {
+    width: 230px;
+}
+.tucker:hover {
+    border: 2px solid rgb(0, 0, 88)
+}
+
+.ny{
+    width: 230px;
+   
+}
+.ny:hover {
+    box-shadow:0 0 5px black
+}
+
+.jude{
+    width: 170px;
+    height: 170px;
+
+}
+.box {
+    background-color: rgb(194, 3, 3);
+    margin-left: 14px;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+
+}
+.box:hover {
+    z-index:-999;
+
+}
+.box:active{
+    z-index:-999;
+}
+.hsn {
+    width: 170px;
+    height: 170px;
+}
+
+.hsn:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+
+.fa-bomb {
+    color: black;
+    transform: scale(2);
+}
+#explode-btn {
+ font-family: fantasy;
+ color: blueviolet;
+ text-transform: uppercase;
+ font-size: 24pt;
+}
+
+#explode-btn:hover .fa-bomb {
+    transform: scale(2.3) translate(0, 200%);
+    transition: 0.4s;
+}
+#explode-btn:hover .fa-bomb {
+    transform: scale(2.6) translate(0, 400%);
+    transition: 0.6s;
+}
+ 
+em {
+    color: white;
+    font-style: normal;
+}
+.cn {
+    font-size: 28pt;
+    font-family: fantasy;
+    color: black;
+    background-color: black;
+
+}
+.cn:hover{
+    color:white;
+ text-shadow:0 0 10px rgb(0, 201, 201);
+    transition: 0.6s;
+}
+
+.fa-moon {
+    color: rgb(245, 244, 179);
+    transform: scale(2.2) translate(-300%, 200%);
+    z-index: -999;
+
+}
+.tn {
+    font-size: 16pt;
+    color: rgb(0, 0, 87);
+    font-family: serif;
+}
+#nbc-btn:hover .fa-moon {
+    transform: scale(2.4) translate(-50%, 0%);
+    transition: 2s;
+}
+
+
+#nbc-btn:active {
+    text-shadow: 0 0 6px yellow;
+}
+#nbc-btn:active .fa-moon {
+    transform: scale(2.7) translate(-50%, 0%);
+    color: rgb(255, 255, 30);
+    transition: .5s;
+}
+#nike-btn:hover {
+
+}
+
+.just {
+font-size: 20pt;
+color: rgb(255, 95, 67);
+text-shadow:0 0 8px rgb(163, 58, 26);
+background-color: rgb(30, 16, 39);
+font-family: monospace;
+}
+
+.do{
+    font-size: 20pt;
+    color: rgb(255, 136, 67);
+    text-shadow:0 0 8px rgb(163, 58, 26);
+    background-color: rgb(30, 16, 39);
+    font-family: monospace;
+}
+
+.it{
+    font-size: 20pt;
+    color: rgb(255, 205, 67);
+    text-shadow:0 0 8px rgb(163, 58, 26);
+    background-color: rgb(30, 16, 39);
+    font-family: monospace;
+}
+
+#nike-btn:hover .just {
+    background-color: rgb(79, 156, 1);
+    color: black;
+    transition: .4s;
+    text-shadow: none;
+}
+#nike-btn:hover .do {
+    background-color: rgb(1, 156, 91);
+    color: black;
+    transition: .4s;
+    text-shadow: none;
+}
+#nike-btn:hover .it {
+    background-color: rgb(1, 122, 112);
+    color: black;
+    transition: .4s;
+    text-shadow: none;
+}
+#lyft-btn {
+    color: rgb(204, 50, 196);
+    font-size: 20pt;
+    line-height: 0pt;
+    font-family: serif;
+}
+#lyft-btn .l1 {
+    opacity: 0;
+}
+#lyft-btn .lyft {
+    opacity: 0;
+}
+
+#lyft-btn:hover .l1 {
+    opacity: .9;
+    transition: 1.5s;
+}
+
+#lyft-btn:hover .lyft {
+    opacity: .75;
+    transition: 3.5s;
+}
+
+.apple{
+    font-size: 18pt;
+    color: rgb(49, 49, 49);
+    font-family: sans-serif;
+    line-height: 5pt;
+    opacity: 0;
+}
+
+.design{
+    font-size: 12pt;
+    color: rgb(49, 49, 49);
+    line-height: 5pt;
+    font-family: sans-serif;
+    opacity: 0;
+}
+
+.app {
+    width: 100px;
+    height: 110px;
+    opacity: .9;
+}
+#apple-btn:hover .app {
+    opacity: 1;
+    transition: .3s;
+    transform: scale(1.1);
+
+}
+#apple-btn:hover .design{
+    opacity: 1;
+    transition: 2.5s;
+}
+
+#apple-btn:hover .apple{
+    opacity: 1;
+    transition: 1s;
+}
+
+.teslab {
+    width: 150px;
+    height: 120px;
+    opacity: 1;
+
+}
+.teslar {
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+transform: translate(0,-120px);
+
+}
+
+#tesla-btn:hover .teslab {
+    opacity: 0;
+    transition: .5s;
+}
+#tesla-btn:hover .teslar {
+    opacity: 1;
+    transition: .3s;
+}
+
+.coke {
+    width: 150px;
+    height: 150px;
+    transform: rotate(-360deg) scale(.9);
+
+}
+#coke-btn:hover .coke {
+    transform: rotate(0deg) scale(1.1);
+    transition: 2.5s;
+}
+
+#coke-btn:active .coke {
+    transform: rotate(0deg) scale(1.1);
+    transition: 2.5s;
+}
+
+.ibm {
+    width: 200px;
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 4px solid rgb(255, 255, 255);
+}
+.ibm:hover {
+    border: 4px solid rgb(63, 108, 255);
+    border-radius: 100px;
+    transition: .7s;
+}
+
+.oldnavy {
+    width: 210px;
+    height: 70px;
+    padding-top: 50px;
+}
+.oldnavy:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.electra {
+    color: teal;
+    font-size: 18pt;
+}
+.fa-bicycle {
+    color: teal;
+    transform: scale(2) translate(-200%, 50%);
+
+}
+
+#electra-btn:hover .fa-bicycle{
+    transform: scale(2.2) translate(-50%, 50%);
+    transition: 1.5s;
+}
+
+#electra-btn:active .fa-bicycle{
+    transform: scale(2.4) translate(0%, 40%) rotate(-360deg);
+    transition: 1.5s;
+}
+
+#electra-btn:hover .electra {
+    color: rgb(0, 102, 102);
+    font-size: 18pt;
+    text-shadow: 0 0 4px yellow;
+    transition: .5s;
+}
+.nerf{
+    font-size: 20pt;
+    font-family: fantasy;
+    color: orange;
+    
+    transform: translate(0%,-420%);
+}
+.bullet {
+    transform: rotate(90deg) scale(.8);
+}
+#nerf-btn:hover .bullet {
+    transform: rotate(90deg) scale(.8) translate(0, -300%);
+transition: .5s;
+}
+ .nerf:hover {
+    color: rgb(0, 0, 197);
+    transition: 1.5s;
+
+}
