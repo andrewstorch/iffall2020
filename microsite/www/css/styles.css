@@ -1,0 +1,173 @@
+html {
+    background-color: rgb(48, 48, 48);
+}
+body{
+    font-family: forma-djr-text, sans-serif;
+font-weight: 300;
+line-height: 1.3rem;
+letter-spacing: .1rem;
+font-style: normal;
+}
+
+nav li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    margin: 1vw 1.6vw;
+    float: right;
+}
+
+nav{
+    width: 95vw;
+
+    
+  }
+
+  nav li a {
+      color:rgb(204, 204, 204);
+      font-family: all-round-gothic, sans-serif;
+      font-size: 14pt;  
+      text-decoration: none;
+  }
+.selected {
+    text-decoration: overline;
+    color:rgb(236, 236, 236);
+}
+
+.l:hover{
+    text-decoration: underline;
+    transition: .4s;
+}
+.c:hover{
+    text-decoration: underline;
+    transition: .4s;
+}
+.w:hover{
+    text-decoration: underline;
+    transition: .4s;
+}
+.h:hover{
+    text-decoration: underline;
+    transition: .4s;
+}
+  nav .tadao {
+    color:rgb(236, 236, 236);
+    margin-right: 3vw;
+  }
+
+  .oval {
+      width: 103vw;
+  }
+  h1 {
+      position: absolute;
+      top: 37vw;  
+      right: 18vw;
+      font-size: 3vw;
+      color: rgb(236, 236, 236);
+      font-family: all-round-gothic, sans-serif;
+  }
+  .intro {
+      margin-left: 25vw;
+      margin-right: 25vw;
+      padding-top: 1vw;
+      color:rgb(204, 204, 204);
+      font-size: 15pt;
+      
+
+  }
+  p {
+
+    color:rgb(204, 204, 204);
+    font-size: 15pt;
+  }
+
+  h2 {
+      font-size: 2vw;
+      color: rgb(236, 236, 236);
+      font-family: all-round-gothic, sans-serif;
+      margin-top: 0;
+      
+
+  }
+  .lp {
+      padding-top: 2vw;
+      padding-left: 8vw;
+      padding-right: 48vw;
+  }
+  .lh {
+      padding-top:10vw;
+      padding-left: 8vw;
+  }
+
+  .cl {
+    padding-top: 2vw;
+    padding-left: 5vw;
+    padding-right: 60vw;
+  }
+
+  .cr {
+    margin-top: -6vw;
+    padding-left: 60vw;
+    padding-right: 5vw;
+  }
+
+  .ch {
+ 
+        padding-top:6vw;
+        padding-left: 16vw;
+  }
+
+  .quote {
+      font-size: 1.3rem;
+      margin-top: 4vw;
+      padding-left: 10vw;
+      padding-right: 10vw;
+      margin-bottom: 10vw;
+       color: rgb(236, 236, 236);
+
+  }
+
+  h3 {
+    font-size: 1.7vw;
+    color: rgb(236, 236, 236);
+    font-family: all-round-gothic, sans-serif;
+    padding-left: 5vw;
+    margin-bottom: -1vw;
+  }
+
+  .bw {
+      margin-top: 7vw;
+      
+  }
+  .baw {
+padding-left: 60vw;
+  }
+  .bawcr {
+    margin-top: 4vw;
+    padding-left: 60vw;
+    padding-right: 5vw;
+  }
+
+.wl li {
+      width: 22%;
+      display: inline-block;
+      padding-bottom: 1vw;
+      vertical-align: top;
+  }
+
+.wl {
+    padding-top: 6vw;
+    padding-left: 10%;
+padding-right: 5%;
+
+}
+.wl div {
+    padding-right: 5%;
+}
+
+.wl img {
+    width: 220px;
+    height: 220px;
+}
+letter-spacing
+line-height
