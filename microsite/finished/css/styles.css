@@ -1,0 +1,323 @@
+html {
+    background-color: rgb(48, 48, 48);
+}
+body{
+    font-family: forma-djr-text, sans-serif;
+font-weight: 300;
+line-height: 1.4rem;
+letter-spacing: .15rem;
+font-style: normal;
+}
+
+nav li {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 1vw 1.6vw;
+ 
+}
+@media (min-width: 640px){
+    nav li {
+        float: right;
+    }
+}
+
+
+nav{
+    width: 95vw;
+
+    
+  }
+
+  nav li a {
+      color:rgb(204, 204, 204);
+      font-family: all-round-gothic, sans-serif;
+      font-size: 14pt;  
+      text-decoration: none;
+  }
+.selected {
+    font-weight: bold;
+    color:rgb(236, 236, 236);
+}
+
+.l:hover{
+    font-weight: bold;
+    color:rgb(236, 236, 236);
+    transition: .4s;
+}
+.c:hover{
+    font-weight: bold;
+    color:rgb(236, 236, 236);
+    transition: .4s;
+}
+.w:hover{
+   font-weight: bold;
+   color:rgb(236, 236, 236);
+    transition: .4s;
+}
+.h:hover{
+    font-weight: bold;
+    color:rgb(236, 236, 236);
+    transition: .4s;
+}
+  nav .tadao {
+  
+    margin-right: 2vw;
+    font-weight: bold;
+  }
+
+  .oval {
+      width: 98vw;
+      margin-left: 0%;
+      padding-left: 0%;
+  }
+  h1 {
+      position: absolute;
+      top: 42vw;  
+      right: 10vw;
+      font-size: 32pt;
+      color: rgb(236, 236, 236);
+      font-family: all-round-gothic, sans-serif;
+  }
+
+  .intro {
+      margin-left: 25vw;
+      margin-right: 25vw;
+      padding-top: 1vw;
+      color:rgb(204, 204, 204);
+      font-size: 15pt;
+      margin-bottom: 10vw;
+  }
+  @media (max-width: 640px){
+   .intro{
+
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-size: 10pt;}
+    h1 {
+        position: absolute;
+        top: 73vw;  
+        right: 12vw;
+        font-size: 18pt;
+        color: rgb(236, 236, 236);
+        font-family: all-round-gothic, sans-serif;
+    }
+  }
+  
+  p {
+
+    color:rgb(204, 204, 204);
+    font-size: 15pt;
+  }
+
+  h2 {
+      font-size: 28pt;
+      color: rgb(236, 236, 236);
+      font-family: all-round-gothic, sans-serif;
+      margin-top: 0;
+      
+
+  }
+  @media (min-width:640px){
+  .lp {
+      padding-top: 2vw;
+      padding-left: 8vw;
+      padding-right: 48vw;
+  }
+  .lh {
+      padding-top:10vw;
+      padding-left: 8vw;
+  }
+
+  .self {
+      width: 20vw;
+position: absolute;
+top: 17vw;
+right: 17vw;
+  }
+}
+@media (max-width:640px){.lp {
+    padding-top: 3vw;
+    padding-left: 5vw;
+    padding-right: 10vw;
+}
+.lh {
+    padding-top:8vw;
+    padding-left: 5vw;
+}
+
+.self {
+    width: 50%;
+padding-left: 5vw;
+padding-top: 8vw;
+}
+}
+  .cl {
+padding-left:5vw;
+padding-right: 5vw;
+padding-bottom: 2vw;
+  }
+
+  .cr {
+    padding-left:5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vw;
+  }
+@media (min-width:640px){
+    .cl {
+        padding-top: 2vw;
+        padding-left: 5vw;
+        padding-right: 60vw;
+      }
+    
+      .cr {
+        margin-top: -6vw;
+        padding-left: 60vw;
+        padding-right: 5vw;
+      }
+      .bawcr {
+        margin-top: 4vw;
+        padding-left: 60vw;
+        padding-right: 5vw;
+      }
+}
+
+  .ch {
+ 
+        padding-top:6vw;
+        padding-left: 16vw;
+  }
+
+  .quote {
+      font-size: 1.3rem;
+      margin-top: 7vw;
+      padding-left: 15vw;
+      padding-right: 15vw;
+      margin-bottom: 15vw;
+       color: rgb(236, 236, 236);
+
+  }
+
+  h3 {
+    font-size: 20pt;
+    color: rgb(236, 236, 236);
+    font-family: all-round-gothic, sans-serif;
+    padding-left: 5vw;
+    margin-bottom: -1vw;
+  }
+  @media (max-width:640px){
+      h2 {
+          font-size:18pt;}
+        h3 {
+            font-size: 15pt;
+        }
+      }
+
+  .bw {
+      margin-top: 7vw;
+      
+  }
+  .baw {
+padding-left: 60vw;
+  }
+
+
+.wl li {
+      width: 22%;
+      display: inline-block;
+      padding-bottom: 1vw;
+      vertical-align: top;
+  }
+
+.wl {
+    padding-top: 8vw;
+
+padding-bottom: 10vw;
+
+}
+.wl div {
+    padding-right: 5%;
+}
+
+.wl img {
+    width: 100%;
+
+}
+.grid-image{
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+}
+.grid-image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:640px) {
+.wl li{
+    width: 40%;
+
+}
+}
+.wl p {
+    margin-top: .75vw;
+    margin-bottom:2.5vw ;
+}
+
+.wh {
+    margin-left: 20vw;
+    position: absolute;
+    top: 9vw;
+}
+.fort p{
+    font-size:8pt;
+    padding-bottom: 5vw;
+    padding-left: 15vw;
+}
+@media (min-width:640px){
+.fort {
+    font-size: 10pt;
+    position: absolute;
+    top: 13vw;
+    right: 10vw;
+    width: 40%;}
+
+    .fort p{
+        font-size: 10pt;}
+
+}
+.fort .fng{
+    width: 50%;
+    padding-left: 15vw;
+    padding-top: 5vw;
+   
+}
+.link{
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+}
+
+.link:hover{
+
+    font-weight:bold;
+transition: .5s;
+
+}
+
+.b {
+padding-top: -6vw;
+padding-bottom: 10vw;
+}
+.wiki {
+    color: rgb(211, 211, 211);
+    font-size: 0.8rem;
+}
+.cite {
+    color: rgb(170, 170, 170);
+    font-size: 10pt;
+
+}
+@media (max-width: 640px) {
+.cite, .wiki {
+    font-size:7pt;
+}
+}
